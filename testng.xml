@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="G:/Automation/Maven/Amazon_TestNG/src/test/java/Amazon_TestNG/TestClass/AMZ_Test_Class_TestNG_BaseClass_UtilityClass.java">
+        <classes>
+            <class name="Amazon_TestNG.TestClass.AMZ_Test_Class_TestNG_BaseClass_UtilityClass">
+                <methods>
+                    <include name="UserValidation"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="G:/Automation/Maven/Amazon_TestNG/src/test/java/Amazon_TestNG/TestClass/FailedTest_Screenshots.java">
+        <classes>
+            <class name="Amazon_TestNG.TestClass.FailedTest_Screenshots">
+                <methods>
+                    <include name="UserValidation"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
